@@ -1,49 +1,17 @@
-# LeetCode Mastery: Software Engineering Practice
+# 📂 Source Code Map
 
-This repository tracks my journey through algorithmic challenges, focusing on achieving optimal time and space complexity. Each solution is implemented in Java with a focus on clean code and performance, aimed at preparing for a Software Engineering Internship at Google Romania.
+All solutions are categorized by algorithmic patterns to improve mental mapping and recall during interviews.
 
----
+### 🛠 Directory Structure
 
-### 🚀 Technical Patterns Mastered
-* **Arrays & Hashing:** Efficient data retrieval and frequency counting.
-* **Two Pointers:** Using dual indices to optimize search and validation (e.g., Palindromes).
-* **Sliding Window:** Managing dynamic ranges within datasets for $O(n)$ substring/subarray analysis.
-* **Stacks:** LIFO (Last-In-First-Out) logic for managing nested structures and validation.
-* **Linked Lists:** Manual memory management and pointer manipulation (In-place reversal).
-* **Greedy Algorithms:** Single-pass optimization for $O(n)$ time complexity.
-* **Binary Search:** Logarithmic time search $O(\log n)$ in sorted datasets.
-* **ASCII Math:** Using character offsets for $O(1)$ space complexity.
+* **`arrays_hashing/`**: Foundations of data storage and retrieval.
+* **`binary_search/`**: Efficient searching in sorted datasets.
+* **`two_pointers/`**: Space-efficient array traversals.
+* **`sliding_window/`**: Subarray optimization and string analysis.
+* **`stacks/`**: LIFO logic for nested structures (parentheses, etc.).
+* **`linked_lists/`**: Manual pointer manipulation and in-place operations.
 
----
-
-### 📊 Problem Tracking
-
-| # | Problem | Difficulty | Time Complexity | Space Complexity |
-| :--- | :--- | :--- | :--- | :--- |
-| 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Easy | $O(n)$ | $O(n)$ |
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | $O(n)$ | $O(n)$ |
-| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | $O(n)$ | $O(1)$ |
-| 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | $O(n)$ | $O(1)$ |
-| 704 | [Binary Search](https://leetcode.com/problems/binary-search/) | Easy | $O(\log n)$ | $O(1)$ |
-| 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy | $O(n)$ | $O(1)$ |
-| 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | $O(n)$ | $O(n)$ |
-| 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | $O(n)$ | $O(k)$ |
-| 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy | $O(n)$ | $O(1)$ |
-
----
-
-### 🛠 Project Setup
+### ⚙️ Environment
 * **Language:** Java 17+
 * **IDE:** IntelliJ IDEA
-* **Version Control:** Git
-
-### 📂 Structure
-* `src/` : Clean Java implementations grouped by pattern.
-* `.gitignore` : Optimized to exclude IDE-specific metadata and build artifacts.
-
----
-
-### 📈 Goals
-- [ ] Complete Top 75 LeetCode Questions (Blind75).
-- [ ] Master Dynamic Programming and Graph Theory.
-- [ ] Maintain optimal time complexity for all solutions.
+* **Coding Style:** Clean Code, explicit variable naming, and no `package` statements (LeetCode compatible).
