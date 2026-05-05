@@ -6,6 +6,10 @@ This repository tracks my journey through algorithmic challenges, focusing on ac
 
 ### 🚀 Technical Patterns Mastered
 * **Arrays & Hashing:** Efficient data retrieval and frequency counting.
+* **Two Pointers:** Using dual indices to optimize search and validation (e.g., Palindromes).
+* **Sliding Window:** Managing dynamic ranges within datasets for $O(n)$ substring/subarray analysis.
+* **Stacks:** LIFO (Last-In-First-Out) logic for managing nested structures and validation.
+* **Linked Lists:** Manual memory management and pointer manipulation (In-place reversal).
 * **Greedy Algorithms:** Single-pass optimization for $O(n)$ time complexity.
 * **Binary Search:** Logarithmic time search $O(\log n)$ in sorted datasets.
 * **ASCII Math:** Using character offsets for $O(1)$ space complexity.
@@ -21,6 +25,10 @@ This repository tracks my journey through algorithmic challenges, focusing on ac
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | $O(n)$ | $O(1)$ |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | $O(n)$ | $O(1)$ |
 | 704 | [Binary Search](https://leetcode.com/problems/binary-search/) | Easy | $O(\log n)$ | $O(1)$ |
+| 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy | $O(n)$ | $O(1)$ |
+| 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | $O(n)$ | $O(n)$ |
+| 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | $O(n)$ | $O(k)$ |
+| 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy | $O(n)$ | $O(1)$ |
 
 ---
 
