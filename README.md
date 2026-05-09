@@ -17,13 +17,18 @@ This repository tracks my journey through algorithmic challenges, focusing on ac
 | 206 | Reverse Linked List | Easy | $O(n)$ | $O(1)$ |
 | 141 | Linked List Cycle | Easy | $O(n)$ | $O(1)$ |
 | 21 | Merge Two Sorted Lists | Easy | $O(n + m)$ | $O(1)$ |
+| 226 | Invert Binary Tree | Easy | $O(n)$ | $O(h)$ |
+| 104 | Maximum Depth of Binary Tree | Easy | $O(n)$ | $O(h)$ |
+| 102 | Binary Tree Level Order Traversal | Medium | $O(n)$ | $O(n)$ |
+| 199 | Binary Tree Right Side View | Medium | $O(n)$ | $O(n)$ |
 
 ## 📈 Roadmap
 
 - [x] Arrays & Hashing Basics
 - [x] Two Pointers & Sliding Window
 - [x] Stacks & Linked Lists
-- [ ] Trees & Graphs (Current)
+- [x] Trees (Current)
+- [ ] Graphs
 - [ ] Dynamic Programming
 
 ---
@@ -32,8 +37,12 @@ This repository tracks my journey through algorithmic challenges, focusing on ac
 
 #### Linked Lists
 * **Pointer Manipulation:** Used the three-pointer technique (prev, curr, next) to reverse list directions in-place.
-* **Fast and Slow Pointers:** Applied Floyd's Cycle-Finding Algorithm to detect loops by observing pointer intersections.
-* **Dummy Node Technique:** Implemented a placeholder head node to simplify the logic for merging and creating new lists.
+* **Fast and Slow Pointers:** Applied Floyd's Cycle-Finding Algorithm to detect loops.
+
+#### Trees (DFS & BFS)
+* **Depth-First Search (Recursive):** Leveraged the call stack to solve bottom-up problems like tree inversion and depth calculation.
+* **Breadth-First Search (Iterative):** Used a `Queue` and `levelSize` snapshots to process trees layer by layer.
+* **Level Management:** Mastered the technique of isolating tree levels to extract specific perspectives, such as the "Right Side View".
 
 ---
-**Next Step:** Dive into Binary Trees, starting with Invert Binary Tree (#226).
+**Next Step:** Moving towards Graphs or exploring advanced Tree problems (Lowest Common Ancestor).

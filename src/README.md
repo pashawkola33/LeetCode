@@ -10,6 +10,7 @@ All solutions are categorized by algorithmic patterns to improve mental mapping 
 * **`sliding_window/`**: Subarray optimization and string analysis.
 * **`stacks/`**: LIFO logic for nested structures (parentheses, etc.).
 * **`linked_lists/`**: Manual pointer manipulation and in-place operations.
+* **`trees/`**: Recursive (DFS) and iterative (BFS) traversal techniques.
 
 ### ⚙️ Environment
 * **Language:** Java 17+
