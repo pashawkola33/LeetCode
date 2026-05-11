@@ -1,4 +1,4 @@
-# 🚀 LeetCode Mastery: Google Romania Internship Prep
+# 🚀 LeetCode Mastery
 
 This repository tracks my journey through algorithmic challenges, focusing on achieving optimal time and space complexity. Each solution is implemented in Java with a focus on clean code and performance.
 
@@ -21,6 +21,8 @@ This repository tracks my journey through algorithmic challenges, focusing on ac
 | 104 | Maximum Depth of Binary Tree | Easy | $O(n)$ | $O(h)$ |
 | 102 | Binary Tree Level Order Traversal | Medium | $O(n)$ | $O(n)$ |
 | 199 | Binary Tree Right Side View | Medium | $O(n)$ | $O(n)$ |
+| 98 | Validate Binary Search Tree | Medium | $O(n)$ | $O(h)$ |
+| 235 | Lowest Common Ancestor of a BST | Medium | $O(h)$ | $O(1)$ |
 
 ## 📈 Roadmap
 
@@ -36,13 +38,13 @@ This repository tracks my journey through algorithmic challenges, focusing on ac
 ### 📝 Key Patterns Learned
 
 #### Linked Lists
-* **Pointer Manipulation:** Used the three-pointer technique (prev, curr, next) to reverse list directions in-place.
+* **Pointer Manipulation:** Used the three-pointer technique to reverse list directions in-place.
 * **Fast and Slow Pointers:** Applied Floyd's Cycle-Finding Algorithm to detect loops.
 
 #### Trees (DFS & BFS)
-* **Depth-First Search (Recursive):** Leveraged the call stack to solve bottom-up problems like tree inversion and depth calculation.
-* **Breadth-First Search (Iterative):** Used a `Queue` and `levelSize` snapshots to process trees layer by layer.
-* **Level Management:** Mastered the technique of isolating tree levels to extract specific perspectives, such as the "Right Side View".
+* **Depth-First Search (Recursive):** Leveraged the call stack to solve bottom-up problems.
+* **Breadth-First Search (Iterative):** Used a Queue and levelSize snapshots to process trees layer by layer.
 
----
-**Next Step:** Moving towards Graphs or exploring advanced Tree problems (Lowest Common Ancestor).
+#### Binary Search Tree (BST) Specifics
+* **Range Validation:** Implemented recursive DFS with dynamic "min/max" boundaries to ensure all nodes satisfy BST properties.
+* **BST Search Logic:** Utilized the "Left < Root < Right" property to find the Lowest Common Ancestor without traversing the entire tree, achieving $O(h)$ time.

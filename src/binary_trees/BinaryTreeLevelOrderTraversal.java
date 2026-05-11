@@ -25,6 +25,7 @@ public class BinaryTreeLevelOrderTraversal {
 
             for (int i = 0; i < levelSize; i++) {
                 TreeNode treeNode = queue.poll();
+                assert treeNode != null;
                 currentLevel.add(treeNode.val);
 
                 if (treeNode.left != null) {

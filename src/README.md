@@ -15,4 +15,4 @@ All solutions are categorized by algorithmic patterns to improve mental mapping 
 ### ⚙️ Environment
 * **Language:** Java 17+
 * **IDE:** IntelliJ IDEA
-* **Coding Style:** Clean Code, explicit variable naming, and no `package` statements (LeetCode compatible).
+* **Coding Style:** Clean Code, explicit variable naming, and no package statements (LeetCode compatible).
