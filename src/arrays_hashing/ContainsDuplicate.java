@@ -1,3 +1,10 @@
+/**
+ * @lc id=217
+ * @lc title=Contains Duplicate
+ * @lc difficulty=Easy
+ * @lc time=O(n)
+ * @lc space=O(n)
+ */
 package arrays_hashing;
 
 import java.util.HashSet;

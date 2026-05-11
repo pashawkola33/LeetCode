@@ -1,3 +1,10 @@
+/**
+ * @lc id=21
+ * @lc title=Merge Two Sorted Lists
+ * @lc difficulty=Easy
+ * @lc time=O(n + m)
+ * @lc space=O(1)
+ */
 package linked_lists;
 
 public class MergeTwoSortedLists {

@@ -1,3 +1,10 @@
+/**
+ * @lc id=141
+ * @lc title=Linked List Cycle
+ * @lc difficulty=Easy
+ * @lc time=O(n)
+ * @lc space=O(1)
+ */
 package linked_lists;
 
 public class LinkedListCycle {

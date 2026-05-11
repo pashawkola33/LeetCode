@@ -1,3 +1,10 @@
+/**
+ * @lc id=20
+ * @lc title=Valid Parentheses
+ * @lc difficulty=Easy
+ * @lc time=O(n)
+ * @lc space=O(n)
+ */
 package stacks;
 
 import java.util.Stack;
@@ -33,4 +40,3 @@ public class ValidParentheses {
         System.out.println(isvp);
     }
 }
-

@@ -1,3 +1,10 @@
+/**
+ * @lc id=98
+ * @lc title=Validate Binary Search Tree
+ * @lc difficulty=Medium
+ * @lc time=O(n)
+ * @lc space=O(h)
+ */
 package binary_trees;
 
 import java.util.Stack;

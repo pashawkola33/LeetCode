@@ -1,3 +1,10 @@
+/**
+ * @lc id=242
+ * @lc title=Valid Anagram
+ * @lc difficulty=Easy
+ * @lc time=O(n)
+ * @lc space=O(1)
+ */
 package arrays_hashing;
 
 public class ValidAnagram {

@@ -1,3 +1,10 @@
+/**
+ * @lc id=704
+ * @lc title=Binary Search
+ * @lc difficulty=Easy
+ * @lc time=O(log n)
+ * @lc space=O(1)
+ */
 package binary_search;
 
 public class BinarySearch {

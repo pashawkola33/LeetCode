@@ -1,3 +1,10 @@
+/**
+ * @lc id=3
+ * @lc title=Longest Substring Without Repeating Characters
+ * @lc difficulty=Medium
+ * @lc time=O(n)
+ * @lc space=O(k)
+ */
 package sliding_window;
 
 import java.util.HashSet;

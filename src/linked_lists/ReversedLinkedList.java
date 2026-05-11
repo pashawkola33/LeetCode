@@ -1,3 +1,10 @@
+/**
+ * @lc id=206
+ * @lc title=Reverse Linked List
+ * @lc difficulty=Easy
+ * @lc time=O(n)
+ * @lc space=O(1)
+ */
 package linked_lists;
 
 public class ReversedLinkedList {

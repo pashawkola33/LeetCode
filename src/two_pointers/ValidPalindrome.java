@@ -1,3 +1,10 @@
+/**
+ * @lc id=125
+ * @lc title=Valid Palindrome
+ * @lc difficulty=Easy
+ * @lc time=O(n)
+ * @lc space=O(1)
+ */
 package two_pointers;
 
 import java.util.Locale;

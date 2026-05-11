@@ -1,3 +1,10 @@
+/**
+ * @lc id=121
+ * @lc title=Best Time to Buy and Sell Stock
+ * @lc difficulty=Easy
+ * @lc time=O(n)
+ * @lc space=O(1)
+ */
 package arrays_hashing;
 
 public class MaxProfit {

@@ -1,3 +1,10 @@
+/**
+ * @lc id=104
+ * @lc title=Maximum Depth of Binary Tree
+ * @lc difficulty=Easy
+ * @lc time=O(n)
+ * @lc space=O(h)
+ */
 package binary_trees;
 
 public class MaximumDepthofBinaryTree {

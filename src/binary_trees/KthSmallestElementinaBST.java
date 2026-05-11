@@ -1,3 +1,10 @@
+/**
+ * @lc id=230
+ * @lc title=Kth Smallest Element in a BST
+ * @lc difficulty=Medium
+ * @lc time=O(h + k)
+ * @lc space=O(h)
+ */
 package binary_trees;
 
 
