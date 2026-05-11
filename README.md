@@ -23,6 +23,7 @@ This repository tracks my journey through algorithmic challenges, focusing on ac
 | 199 | Binary Tree Right Side View | Medium | $O(n)$ | $O(n)$ |
 | 98 | Validate Binary Search Tree | Medium | $O(n)$ | $O(h)$ |
 | 235 | Lowest Common Ancestor of a BST | Medium | $O(h)$ | $O(1)$ |
+| 230 | Kth Smallest Element in a BST | Medium | $O(h + k)$ | $O(h)$ |
 
 ## 📈 Roadmap
 
@@ -46,5 +47,6 @@ This repository tracks my journey through algorithmic challenges, focusing on ac
 * **Breadth-First Search (Iterative):** Used a Queue and levelSize snapshots to process trees layer by layer.
 
 #### Binary Search Tree (BST) Specifics
-* **Range Validation:** Implemented recursive DFS with dynamic "min/max" boundaries to ensure all nodes satisfy BST properties.
-* **BST Search Logic:** Utilized the "Left < Root < Right" property to find the Lowest Common Ancestor without traversing the entire tree, achieving $O(h)$ time.
+* **Inorder Traversal Logic:** Applied the property that Inorder traversal ($Left \to Root \to Right$) visits nodes in non-decreasing order.
+* **Iterative Search with Stack:** Used an explicit Stack to implement early exit during search, optimizing time when only the $k$-th smallest element is needed.
+* **Range Validation:** Used dynamic boundaries to ensure global BST properties.
